@@ -39,6 +39,8 @@ public class Driver {
 
                         URL url = new URL("http://" + gridAddress + ":4444/wd/hub");
 
+
+
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
